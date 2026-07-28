@@ -194,7 +194,7 @@ export const DAYS = [
     race: { you: 16, them: 6, caption: 'Invites out on day 4 — <strong>most brands are still shortlisting.</strong>' },
     upNext: [
       { emoji: '💌', text: 'First acceptances land', eta: 'usually within 48h' },
-      { emoji: '📦', text: 'Product picks + shipping', eta: 'right after each yes' },
+      { emoji: '📦', text: 'Product picks + shipping', eta: 'right after each acceptance' },
     ],
     recap: {
       since: 'since yesterday',
