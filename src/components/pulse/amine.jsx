@@ -16,7 +16,6 @@ const AIC = {
   group: `${B}labs/group.svg`,
   invites: `${B}labs/invites.svg`,
   insight: `${B}labs/insight.svg`,
-  plus: `${B}labs/plus.svg`,
   chevron: `${B}labs/chevron.svg`,
   check: `${B}labs/check-circle.svg`,
   paceStrip: `${B}labs/pace-strip.jpg`,
@@ -329,12 +328,6 @@ export function AmineTable({ scene, rows, filter, onFilter, openCrew, toggleCrew
         })
       )}
 
-      <div className="am-foot">
-        <button type="button" className="am-more">
-          <span className="am-more-plus"><img src={AIC.plus} alt="" /></span>
-          Request more
-        </button>
-      </div>
     </section>
   );
 }
