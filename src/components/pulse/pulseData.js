@@ -125,7 +125,7 @@ export const TIMELINES = {
     { eta: 'this week', detail: 'Stories go live' },
   ],
   Amara: [
-    { when: 'Jul 25', detail: 'Cast as Lena’s replacement — 96% fit' },
+    { when: 'Jul 25', detail: 'Cast as a replacement — 96% fit' },
     { when: 'Jul 25', detail: 'Accepted in 4 hours' },
     { when: 'Jul 26', detail: 'Express-shipped her product' },
     { eta: 'this week', detail: 'First shoot scheduled' },
@@ -210,7 +210,7 @@ export const DAYS = [
     race: { you: 34, them: 12, caption: 'Day 9 — a typical agency would <strong>still be negotiating contracts</strong>. Your products are already in the mail.' },
     upNext: [
       { emoji: '📦', text: 'All packages delivered', eta: 'on track for Thursday' },
-      { emoji: '🔁', text: 'Replacement picks for Lena', eta: 'within 48h — we’ll ping you' },
+      { emoji: '🔁', text: 'Replacement picks', eta: 'within 48h — we’ll ping you' },
       { emoji: '🎬', text: 'First creators start filming', eta: 'this weekend' },
     ],
     recap: {

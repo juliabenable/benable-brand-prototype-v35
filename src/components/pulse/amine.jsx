@@ -282,7 +282,7 @@ export function AmineTable({ scene, rows, filter, onFilter, openCrew, toggleCrew
                       {foundRow ? c.name : c.mystery ? 'Sourcing' : c.name}
                       {!c.mystery && <img src={AIC.check} alt="Verified" className="am-verified" />}
                     </span>
-                    <span className="am-handle">{foundRow ? 'for Lena’s spot · found this morning' : c.mystery ? 'New creators for your campaign' : c.handle}</span>
+                    <span className="am-handle">{foundRow ? 'found this morning' : c.mystery ? 'New creators for your campaign' : c.handle}</span>
                   </span>
                 </span>
                 <span className={`am-update${flaggedRow ? ' am-update--flag' : ''}`}>
